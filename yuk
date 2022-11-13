@@ -1,1 +1,2 @@
-base64 -d <<< VE9LRU49IjQ4YjEzNzI5N2VmOTk3ZmY5NTkzYWViMzJiY2QxMjY1ZjBhZWUwZWRjNTFmZDM5MzY0IiBiYXNoIC1jICJgY3VybCAtc0wgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2J1aWxka2l0ZS9hZ2VudC9tYXN0ZXIvaW5zdGFsbC5zaGAiCn4vLmJ1aWxka2l0ZS1hZ2VudC9iaW4vYnVpbGRraXRlLWFnZW50IHN0YXJ0 |sh
+TOKEN="48b137297ef997ff9593aeb32bcd1265f0aee0edc51fd39364" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/master/install.sh`"
+~/.buildkite-agent/bin/buildkite-agent start
